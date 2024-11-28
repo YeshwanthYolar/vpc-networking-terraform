@@ -1,0 +1,25 @@
+please do this this Task.
+VPC and Networking
+
+A VPC with the following:
+A single public subnet.
+An Internet Gateway attached to the VPC.
+Route tables for proper routing.
+EC2 Instance
+
+An EC2 instance in the public subnet with:
+A specified instance type (e.g., t2.micro).
+A key pair for SSH access.
+User data to install and run a simple Nginx web server.
+Attach a Security Group to the EC2 instance that allows:
+SSH (port 22) access from your IP.
+HTTP (port 80) access from anywhere.
+S3 Bucket
+
+Create an S3 bucket to store logs or configuration files.
+Enable versioning for the bucket.
+Outputs
+
+Output the following:
+Public IP of the EC2 instance.
+Name of the S3 bucket.
